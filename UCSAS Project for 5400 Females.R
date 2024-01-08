@@ -6,14 +6,15 @@ USA.F.master <- cleaned.master %>%
 
 # Create a data frame for medal benchmarks
 medal_benchmark <- data.frame(
-  events = c("VT", "UB", "FX", "BB", "AA", "team"),
-  gold = c(14.69383977, 14.93643976,
-           14.43445863,  14.4216994, 56.92763133, 169.5085392),
-  silver = c(14.39308886, 14.71808147,
-             14.12851923, 14.14802942, 56.08740272, 165.5941748),
-  bronze = c(14.2660906,  14.53633499, 
-             13.97427502,  13.9049895,  55.47711342, 163.3393386),
-  qualifying= c(13.6745,14.2665,13.633,13.533,51.5315, 158.9465)
+  events = c("Vault", "Uneven Bars", 
+             "Floor Exercise",
+             "Balance Beam", "All Around", "Team"),
+  gold = c(14.6923, 14.9349,
+           14.4329,  14.4202, 56.9213, 169.4912),
+  silver = c(14.3916, 14.7165,
+             14.1270, 14.1465, 56.0811, 165.5772),
+  bronze = c(14.2646,  14.5348, 
+             13.9728,  13.9035,  55.4709, 163.3226)
 )
 
 # Create a vector of event names for females:
