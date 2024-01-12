@@ -12,14 +12,11 @@ This project involves developing a model to choose a team of 5 representatives f
 3. **UCSAS Project for 5400 Males.R**
    - Program to simulate and find best possible men's team based on total medal counts.
 
-4. **data_2022_2023.csv**
-   - Athlete data from https://github.com/ucsas/gym2024data/blob/main/cleandata/data_2022_2023.csv
-
-5. **data_2022_2023_cleaned.csv**
+4. **data_2022_2023_cleaned.csv**
    - Cleaned data from "data_2022_2023.csv"
 
-6. **data_cleaning.R**
-   - Program to clean "data_2022_2023.csv" and saving the cleaned data in "data_2022_2023_cleaned.csv"
+5. **data_cleaning.R**
+   - Program to clean the data file and saving the cleaned data in "data_2022_2023_cleaned.csv"
   
 ## How to Use
 1. Clone the repository.
