@@ -428,14 +428,5 @@ USA.M.best.teams.by.weighted <- USA.M.best.teams %>%
 USA.M.best.teams.by.score[1:50,]
 
 
-saveRDS(USA.M.best.teams.by.score, file="Best M teams w score tiebreaker")
-saveRDS(USA.M.best.teams.by.weighted, file="Best M teams w medal weight tiebreaker")
-
-breaks <- seq(min(USA.M.best.teams.by.score[,10]), max(USA.M.best.teams.by.score[,10]) + 1, by = 1)
-
-# Create histogram with left-inclusive bins
-hist_data <- hist(USA.M.best.teams.by.score[,10], breaks = breaks, right = FALSE, plot = FALSE)
-
-# Plot the histogram
-barplot(hist_data$counts, names.arg = 0:3, col = "red", xlab = "Expected number of medals", 
-        main = "Bar Plot of simulation results for all male 5-member teams",  ylab = "Frequency")
+saveRDS(USA.M.best.teams.by.score, file="Best M teams w score tiebreaker.rds")
+saveRDS(USA.M.best.teams.by.weighted, file="Best M teams w medal weight tiebreaker.rds")

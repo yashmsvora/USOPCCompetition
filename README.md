@@ -1,6 +1,6 @@
 # USOPCCompetition
  
-This project involves developing a model to choose a team of 5 representatives from each of the men’s and women’s programs to represent the United States in upcoming Paris 2024 Olympics competition.
+This project involves developing a model to choose a team of 5 representatives from each of the men’s and women’s programs to represent the United States in upcoming Paris 2024 competition.
 
 ## Files
 1. **Scaling Benchmarks.xlsx**
